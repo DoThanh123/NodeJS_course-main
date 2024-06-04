@@ -1,0 +1,32 @@
+@import 'variables';
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.user-avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card-course-item {
+  margin-top: 16px;
+}
+.layout-create {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.form-create {
+  width: 50%;
+  margin-top: 4px;
+}
